@@ -30,8 +30,8 @@
                     <h2>Session Length</h2>
                     <p>(in minutes)</p>
                     <h2 class="length">10</h2>
-                    <button class="minus" onclick="minus()">-</button>
-                    <button class="plus" onclick="plus()">+</button>
+                    <button class="minus" onclick="minus()" id="minus">-</button>
+                    <button class="plus" onclick="plus()" id="plus">+</button>
                 </div>
                 <div class="timer" onclick="countdown()">
                     <h2>Session</h2>
@@ -43,8 +43,8 @@
                 </div>
                 <!--Div with buttons start, reset and pause-->
                 <div class="buttons">
-                    <button type="button" class="start" onclick="start()">Start</button>
-                    <button type="button" class="pause" onclick="pause()">Pause</button>
+                    <button type="button" class="start" id="start" onclick="start()">Start</button>
+                    <button type="button" class="pause" id="pause" onclick="pause()">Pause</button>
                     <button type="button" class="reset" onclick="reset()">Reset</button>
                 </div>
             </main>
